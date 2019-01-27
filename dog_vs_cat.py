@@ -11,14 +11,24 @@ The file structure should be
 
 gdrive/  
         train6_25000pics.zip(the folder which contains data for training)
-            /dog.0.jpg
-             ...
-             dog.25000.jpg
+             /dog
+                /dog.0.jpg
+                 ...
+                dog.25000.jpg
+             /cat
+                /cat.0.jpg
+                ...
+                /cat.25000.jpg
          
           test5_100pics.zip(the folder which contains data for testing)
-            /1.jpg
-            ...
-            100.jpg
+            /dog
+                /1.jpg
+                ...
+                50.jpg
+            /cat
+                /51.jpg
+                ...
+                /100.jpg
       
 """
 #Get a connection between this program and Google Drive itself
